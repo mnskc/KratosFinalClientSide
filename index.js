@@ -93,7 +93,13 @@ const EthersAdapter = require('@gnosis.pm/safe-ethers-lib')["default"];
 let wallet_signer , relayer , provider , addressOfSafe;
 
 // ADDRESS AND ABI OF CONTRACTS...
-const UserMappingSmartContractAddress = "0x5eee90B939F5fF2a6fA90265B64284dCaB2C031a" , dai_address = "0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa" , cDAI_ADDRESS = "0x6D7F0754FFeb405d23C51CE938289d4835bE3b14" , uniswap_address="0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D" , link_address = "0x01BE23585060835E02B77ef475b0Cc51aA1e0709" , relayer_owner_address ="0x47808B1b63390e7fB84818E826f154385821a1e7" , relayer_private_key = "fcdc201c21f2ee32b116c24ea793bb3c662747a66cd486bd23efd339fd0d104c";
+const UserMappingSmartContractAddress = "0x5eee90B939F5fF2a6fA90265B64284dCaB2C031a" ,
+dai_address = "0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa" , 
+cDAI_ADDRESS = "0x6D7F0754FFeb405d23C51CE938289d4835bE3b14" , 
+uniswap_address="0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D" , 
+link_address = "0x01BE23585060835E02B77ef475b0Cc51aA1e0709" , 
+relayer_owner_address ="0x47808B1b63390e7fB84818E826f154385821a1e7" , 
+relayer_private_key = "fcdc201c21f2ee32b116c24ea793bb3c662747a66cd486bd23efd339fd0d104c";
 
 const UserMappingAbi = [
     "function getAddress(address) public view returns (address)",
