@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kratos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+
+<!-- Navbar Section is Here.... -->
+<nav class="navbar bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="padding: 10px;">
+            <img src="./images/kratos.png" alt="Groww" width="105" height="34" class="d-inline-block align-text-top">  
+        </a>
+      <form class="d-flex" role="search">
+        <div class="d-grid gap-2" style="padding: 10px;">
+            <button class="btn btn-primary" type="button" style="background-color: #00d09b; color: white; border-color: white; padding: 12px; width: 200px; margin-right: 140px;" id="metamask-wallet">CONNECT WALLET</button>
+        </div>
+      </form>
+    </div>
+</nav>
+
+
+<!-- Here starts the Container Section...... -->
+
+<div class="container" id="welcome-screen" style="padding: 20px; margin-top: 100px;">
+    <div class="row">
+        <div class="col">
+
+            <div class="col gap-4">
+                <button type="button" class="btn btn btn-light w-100" style="padding: 30px; background-color: white;" disabled></button>
+                <button type="button" class="btn btn btn-light w-100" style="padding: 30px; background-color: white;" disabled></button>
+                <button type="button" class="btn btn btn-light w-100" style="padding: 30px; background-color: white;" disabled></button>
+                <div class="d-grid gap-2" style="padding: 10px;">
+                    <h5>Crypto Investment made Simple...Start Investing Today.</h5>
+                    <button class="btn btn-primary" type="button" style="background-color: #00d09b; color: white; border-color: white; padding: 12px; width: 200px; margin-right: 140px;" id="create-safe-button">GET STARTED</button>
+                </div>
+            </div>
+
+
+
+        </div>
+                                    <div class="col">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="card">
+                                                    
+                                                    <div class="card-body">
+                                                        <img src="./images/dai.webp" alt="Groww" style="margin-left: 70px;" width="100" height="100" class="d-inline-block align-text-top">
+                                                        <br/>
+                                                    </div>
+                                                    <div class="card-footer text-muted" style="background-color: white; color:whitesmoke "> TRANSFER TOKENS    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6">
+                                                <div class="card">
+                                                   
+                                                    <div class="card-body">
+                                                        <img src="./images/invest.jpeg" alt="Groww" style="margin-left: 70px;" width="100" height="100" class="d-inline-block align-text-top">
+                                                        <br/>
+                                                    </div>
+                                                    <div class="card-footer text-muted" style="background-color: white; color:whitesmoke "> INVEST TOKENS 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br/>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="card">
+                                               
+                                                    <div class="card-body">
+                                                        <img src="./images/swap.webp" alt="Groww" style="margin-left: 70px;" width="100" height="100" class="d-inline-block align-text-top">
+                                                        <br/>
+                                                    </div>
+                                                <div class="card-footer text-muted" style="background-color: white; color:whitesmoke ">  SWAP TOKENS     
+                                                </div>
+                                                </div>
+                                            </div>
+                                        
+                                            
+                                            <div class="col-sm-6">
+                                                <div class="card">
+                                                    
+                                                        <div class="card-body">
+                                                            <img src="./images/gas.jpeg" alt="Groww" style="margin-left: 70px;" width="100" height="100" class="d-inline-block align-text-top">
+                                                            <br/>
+                                                        </div>
+                                                <div class="card-footer text-muted" style="background-color: white; color:whitesmoke "> ALL GASLESS TRANSACTIONS     
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+      </div>
+</div>       
+
+<div class="container" id="main-screen">
+    <!-- Screen Transaction shown here..... -->
+<div class="row" style="padding: 5px; border:10px" >
+    <div class="col gap-4">
+        <button type="button" class="btn btn-outline-primary w-100" style="padding: 30px; background-color: #00d09b; color: white; border-color: white;" id="transaction-button">Transfer</button>
+        <button type="button" class="btn btn-outline-primary w-100" style="padding: 30px; background-color: #00d09b; color: white; border-color: white;" id="invest-button">Lend</button>
+        <button type="button" class="btn btn-outline-primary w-100" style="padding: 30px; background-color: #00d09b; color: white; border-color: white;" id="swap-button">Swap</button>
+        <button type="button" class="btn btn-outline-primary w-100" style="padding: 30px; background-color: #00d09b; color: white; border-color: white;" id="all-orders-button">All Transactions</button>
+        <button type="button" class="btn btn btn-light w-100" style="padding: 30px; background-color: white;" disabled></button>
+        <button type="button" class="btn btn btn-light w-100" style="padding: 30px; background-color: white;" disabled></button>
+        <button type="button" class="btn btn btn-light w-100" style="padding: 30px; background-color: white;" disabled></button>
+        <button type="button" class="btn btn btn-light w-100" style="padding: 30px; background-color: white;" disabled></button>
+        <button type="button" class="btn btn-outline-primary w-100" style="padding: 30px; background-color: #00d09b; color: white; border-color: white;" id="profile-button">Profile</button>
+    </div>
+    <div class="container col-9" id="transaction-screen" style="background-color: white; height: 700px;">
+              TRANSACTION
+                    <div class="card text-center" style="height: 600px;">
+                            <p class="card-header" style="background-color: #5466ff; color:whitesmoke" id="trx-dai-balance"></p>
+                            <div class="card-body">
+                            <h5 class="card-title">Transfer to Another User</h5>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text">Amount To Transfer</span>
+                                        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" id="trx-screen-token-input">
+                                        <span class="input-group-text">DAI</span>
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text">FROM</span>
+                                        <span class="input-group-text" style="background-color: white;" id="trx-from-address"></span>
+                                        <span class="input-group-text">TO</span>
+                                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" id="trx-screen-address-input">
+                                    </div>
+                                    <div class="d-grid gap-2" style="padding: 10px; position: relative; margin-left: auto;">
+                                        <button class="btn btn-primary" type="button" style="background-color: #00d09b; color: white; border-color: white; padding: 12px; width: 290px;" id="send-transaction-button">TRANSFER</button>
+                                    </div>
+                            </div>
+                            <div class="card-footer text-muted transaction-status-common" style="background-color: #00d09b; color:whitesmoke" id="transaction-status-text">Transaction Status:</div>
+                    </div>
+    </div>
+
+    <!-- investment screen is show here..... -->
+
+    <div class="container col-9" id="invest-screen" style="background-color: white; height: 700px;">
+        LEND
+                <div class="row">
+                        <div class="col-sm-6" style="height: 600px;">
+                        <div class="card">
+                            <p class="card-header" style="background-color: #5466ff; color:whitesmoke" id="invest-dai-balance"></p>
+                            <div class="card-body">
+                            <h5 class="card-title">INVEST DAI</h5>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">Amount To INVEST</span>
+                                <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" id="lend-token-input">
+                                <span class="input-group-text">DAI</span>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary" type="button" style="background-color: #00d09b; color: white; border-color: white; padding: 12px;" id="lend-token-button">LEND</button>
+                            </div>
+                            </div>
+                            <div class="card-footer text-muted transaction-status-common" style="background-color: #00d09b; color:whitesmoke" id="lend-status-text">
+                            Transaction Status: 
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-sm-6">
+                        <div class="card">
+                            <p class="card-header" style="background-color: #5466ff; color:whitesmoke" id="redeem-dai-balance"></p>
+                            <div class="card-body">
+                            <h5 class="card-title">REDEEM DAI</h5>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text">Amount To REDEEM</span>
+                                <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" id="redeem-token-input">
+                                <span class="input-group-text">DAI</span>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary" type="button" style="background-color: #00d09b; color: white; border-color: white; padding: 12px;" id="redeem-token-button">REDEEM</button>
+                            </div>
+                            </div>
+                            <div class="card-footer text-muted transaction-status-common" style="background-color: #00d09b; color:whitesmoke" id="redeem-status-text">
+                            Transaction Status: 
+                            </div>
+                        </div>
+                        </div>
+                </div>
+    </div>
+
+    <!-- swap screen is show here....... -->
+
+    <div class="container col-9" style="background-color: white; height: 700px;" id="swap-screen">
+        SWAP
+                  <div class="card text-center" style="height: 600px;">
+                    <p class="card-header" style="background-color: #5466ff; color:whitesmoke" id="swap-dai-balance"></p>
+                      <div class="card-body">
+                      <h5 class="card-title">SWAP from DAI to LINK</h5>
+                              <div class="input-group mb-3">
+                                  <span class="input-group-text">Amount To Swap</span>
+                                  <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)" id="swap-token-input">
+                                  <span class="input-group-text">DAI</span>
+                              </div>
+                              <div class="input-group mb-3">
+                                  <span class="input-group-text">FROM</span>
+                                  <span class="input-group-text" style="background-color: white;">DAI</span>
+                                  <span class="input-group-text">TO</span>
+                                  <span class="input-group-text" style="background-color: white;">LINK</span>
+                              </div>
+                              <div class="d-grid gap-2" style="padding: 10px; position: relative; margin-left: auto;">
+                                  <button class="btn btn-primary" type="button" style="background-color: #00d09b; color: white; border-color: white; padding: 12px; width: 290px;" id="swap-token-button">SWAP</button>
+                              </div>
+                      </div>
+                      <div class="card-footer text-muted transaction-status-common" style="background-color: #00d09b; color:whitesmoke" id="swap-status-text">
+                      Transaction Status: 
+                      </div>
+                  </div>
+      </div>
+
+      <!-- transaction screen is shown here... -->
+      <div class="container col-9" style="background-color: white; height: 900px;" id="all-orders-screen">
+       
+                  <div class="card text-center">
+                      <div class="card-header" style="background-color: #5466ff; color:whitesmoke">
+                      ALL TRANSACTIONS MADE
+                      </div>
+                      
+                      <div class="table-responsive" style="height: 600px;">
+                        <ol class="list-group list-group-flush" id="list" style="list-style-type: none;">
+                        </ol>
+                    </div>
+                      <div class="card-footer text-muted" style="background-color: #00d09b; color:whitesmoke">
+                      </div>
+                  </div>
+      </div>
+
+      <div class="container col-9" style="background-color: white; height: 700px;" id="profile-screen">
+        Profile
+                    <div class="card" >
+                        <div class="card-header">
+                            <img src="./images/kratos.webp" class="card-img-top" alt="groww" style="height: 200px; width: 210px;">
+                        </div>
+            
+                        <div class="card-body">
+                        <h5 class="card-title">Your Username Goes Here</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item"> 
+                            <div class="input-group mb-3" style="background-color: white;">
+                                <span class="input-group-text" style="background-color: white;">MOBILE NUMBER</span>
+                                <input class="input-group-text" style="background-color: white;" type="text" placeholder="Enter your Mobile Number"/>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" style="background-color: white;">MAIL ID</span>
+                                <input class="input-group-text" style="background-color: white;" type="email" placeholder="Enter your Email Id"/>
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-text" style="background-color: white;">DATE OF BIRTH (DD/MM/YYYY)</span>
+                                <input class="input-group-text" style="background-color: white;" type="date" placeholder="Enter your Date Of Birth"/>
+                            </div>
+                            <div class="d-grid gap-2" style="padding: 10px; position: relative; margin-left: auto;">
+                                <button class="btn btn-primary" type="button" style="background-color: #00d09b; color: white; border-color: white; padding: 12px; width: 290px;">Save Details</button>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" style="background-color: white;">USER ADDRESS</span>
+                                <span class="input-group-text" style="background-color: white;" id = "user_address_span">0xb7D8Cf0cA9A51c5e0680577F17bBcD2Ef4E690aF</span>
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" style="background-color: white;">KRATOS SAFE ADDRESS</span>
+                                <span class="input-group-text" style="background-color: white;" id="profile-safe-address"></span>
+                            </div>
+                        </li>
+                        </ul>
+                            <div class="card-footer text-muted" style="background-color: #5466ff; color:whitesmoke"></div>
+                    </div>
+    </div>
+
+    
+</div>
+
+ 
+</div>
+
+
+
+<script src="bundle.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
